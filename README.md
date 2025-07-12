@@ -4,6 +4,9 @@ A modern, accessible, and responsive interface for managing teacher records. Bui
 
 > 📍 GitHub: [https://github.com/NitanshaSharma/school-management](https://github.com/NitanshaSharma/school-management)
 
+## 🌐 Live Demo
+
+Check it out live here: [https://school-management-psi-flame.vercel.app](https://school-management-psi-flame.vercel.app)
 ---
 
 ## 🚀 Tech Stack
