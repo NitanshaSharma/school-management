@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👩‍🏫 School Management – Teacher Interface
 
-## Getting Started
+A modern, accessible, and responsive interface for managing teacher records. Built with **Next.js 15 App Router**, **TypeScript**, **Tailwind CSS**, and **Zustand**, this project focuses on clean UI, accessible form handling, and scalable architecture — ideal for school, coaching, or admin dashboard applications.
 
-First, run the development server:
+> 📍 GitHub: [https://github.com/NitanshaSharma/school-management](https://github.com/NitanshaSharma/school-management)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Zustand** – global state management
+- **React Hook Form** + **Yup** – for form validation
+- **React Hot Toast** – elegant toast notifications
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- 🧾 Add new teacher records
+- 🔐 Form validation with helpful error messages
+- 🔄 Global state management using Zustand
+- ✅ Accessible, keyboard-navigable form with ARIA support
+- 📱 Fully responsive UI (mobile-first design)
+- 🔔 Toast notifications on actions
+- 🧱 Reusable UI components (inputs, buttons, loaders)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Installation & Setup
 
-## Deploy on Vercel
+### 1. Clone the repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##
+            git clone https://github.com/NitanshaSharma/school-management.git
+            cd school-management
+####       
+2. Install dependencies
+            bash
+            Copy
+            Edit
+            npm install
+            # or
+            yarn
+            3. Run the development server
+            bash
+            Copy
+            Edit
+            npm run dev
+            # or
+            yarn dev
+            Then open http://localhost:3000 in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#####
+Project Structure
+            bash
+            Copy
+            Edit
+            src/
+            ├── app/                        # Next.js App Router structure
+            │   └── teachers/              # Main route for teacher-related pages
+            ├── components/
+            │   ├── common/                # Reusable UI elements (buttons, inputs, loaders)
+            │   └── teachers/              # Add form, teacher list, detail view (future)
+            ├── store/                     # Zustand store for teacher data
+            ├── types/                     # Shared TypeScript types
+            ├── styles/                    # Global styles if any
+            ♿ Accessibility Highlights
+            🔗 Inputs linked with labels using htmlFor and id
+
+            Error messages announced via role="alert"
+
+            Inputs use aria-describedby for screen reader context
+
+            Auto-focuses first invalid field on form error
+
+            Fully keyboard navigable
+
+            Planned Enhancements
+            Edit and delete teacher records
+
+            View individual teacher profile
+
+            Search, sort, and filter
+
+            Pagination for large lists
+
+            Integration with backend or API
+
+            Local storage or DB persistence
+
+
+####
+License
+            This project is licensed under the MIT License.
+
+###
+Author
+            Built  by Nitansha Sharma
+
+            Contributing
+            Contributions, suggestions, and PRs are welcome!
+            Feel free to open issues or submit improvements.
+###
+Feedback
+            If you find a bug or have a feature request, create an issue or reach out via GitHub discussions.
