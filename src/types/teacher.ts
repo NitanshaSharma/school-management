@@ -14,7 +14,7 @@ export type ScheduleSlot = {
 export type Teacher = {
   id: string;
   name: string;
-  experience: number; // assuming number
+  experience: number; 
   subject: string;
   status: "active" | "inactive";
   email: string;

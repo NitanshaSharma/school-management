@@ -1,60 +1,84 @@
-import { Teacher } from '@/types/teacher'
+import { Teacher } from "@/types/teacher";
 
 export const teachersDataJSON: Teacher[] = [
   {
-    id: '1',
-    name: 'Dr. Sarah Johnson',
-    subject: 'Mathematics',
+    id: "1",
+    name: "Dr. Sarah Johnson",
+    subject: "Mathematics",
     experience: 8,
-    status: 'active'
+    status: "active",
+    email: "sarah.johnson@example.com",
+    phone: "123-456-7890",
+    address: "123 Main Street, Springfield",
   },
   {
-    id: '2',
-    name: 'Prof. Michael Chen',
-    subject: 'Physics',
+    id: "2",
+    name: "Prof. Michael Chen",
+    subject: "Physics",
     experience: 12,
-    status: 'inactive'
+    status: "inactive",
+    email: "michael.chen@example.com",
+    phone: "987-654-3210",
+    address: "456 Oak Avenue, Newton",
   },
   {
-    id: '3',
-    name: 'Ms. Emily Rodriguez',
-    subject: 'English Literature',
+    id: "3",
+    name: "Ms. Emily Rodriguez",
+    subject: "English Literature",
     experience: 6,
-    status: 'active'
+    status: "active",
+    email: "emily.rodriguez@example.com",
+    phone: "555-555-5555",
+    address: "789 Maple Lane, Rivertown",
   },
   {
-    id: '4',
-    name: 'Dr. James Wilson',
-    subject: 'Chemistry',
+    id: "4",
+    name: "Dr. James Wilson",
+    subject: "Chemistry",
     experience: 15,
-    status: 'inactive'
+    status: "inactive",
+    email: "james.wilson@example.com",
+    phone: "222-333-4444",
+    address: "321 Elm Road, Hillview",
   },
   {
-    id: '5',
-    name: 'Mrs. Lisa Thompson',
-    subject: 'History',
+    id: "5",
+    name: "Mrs. Lisa Thompson",
+    subject: "History",
     experience: 10,
-    status: 'active'
+    status: "active",
+    email: "lisa.thompson@example.com",
+    phone: "111-222-3333",
+    address: "654 Pine Blvd, Lakeville",
   },
   {
-    id: '6',
-    name: 'Mr. David Kim',
-    subject: 'Computer Science',
+    id: "6",
+    name: "Mr. David Kim",
+    subject: "Computer Science",
     experience: 7,
-    status: 'active'
+    status: "active",
+    email: "david.kim@example.com",
+    phone: "999-888-7777",
+    address: "987 Birch St, TechCity",
   },
   {
-    id: '7',
-    name: 'Dr. Amanda Foster',
-    subject: 'Biology',
+    id: "7",
+    name: "Dr. Amanda Foster",
+    subject: "Biology",
     experience: 11,
-    status: 'inactive'
+    status: "inactive",
+    email: "amanda.foster@example.com",
+    phone: "444-555-6666",
+    address: "432 Cedar Ln, Greenfield",
   },
   {
-    id: '8',
-    name: 'Prof. Robert Martinez',
-    subject: 'Economics',
+    id: "8",
+    name: "Prof. Robert Martinez",
+    subject: "Economics",
     experience: 14,
-    status: 'active'
-  }
-] 
+    status: "active",
+    email: "robert.martinez@example.com",
+    phone: "777-666-5555",
+    address: "111 Sunset Way, Capitol Hill",
+  },
+];
